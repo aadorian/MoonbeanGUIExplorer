@@ -1,6 +1,6 @@
 {
   "CUSTOM_TYPES": {
-    "Address": "AccountId",
+    "Address": "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY",
     "LookupSource": "AccountId"
   },
   "PROVIDER_SOCKET": "wss://wss.testnet.moonbeam.network"

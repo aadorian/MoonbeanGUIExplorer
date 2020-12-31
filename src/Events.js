@@ -13,7 +13,7 @@ function Main(props) {
   const { api } = useSubstrate();
   const [eventFeed, setEventFeed] = useState([]);
 
-  useEffect(() => {
+  useEffect(() =>  {
     let unsub = null;
     const allEvents = async () => {
       unsub = await api.query.system.events(events => {
